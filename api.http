@@ -10,6 +10,15 @@ Content-Type: application/json
     "sexo": "M"
 }
 
+{    "cpf": "01741652421",
+    "nome":  "Adriel Lucas",
+    "email": "alfagundes76@gmail.com",
+    "data_nascimento": "1999-12-17",
+    "fone": "(84) 91882644",
+    "sexo": "M"
+
+}
+
 ###
 
 GET http://localhost:3000/clientes/listarClientes
