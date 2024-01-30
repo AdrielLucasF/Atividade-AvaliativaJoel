@@ -1,0 +1,28 @@
+POST http://localhost:3000/clientes/novoCliente
+Content-Type: application/json
+
+{ 
+    "cpf": "12345678910",
+    "nome":  "Joab",
+    "email": "joab@email.com",
+    "data_nascimento": "1994-05-06",
+    "fone": "(84) 988945095",
+    "sexo": "M"
+}
+
+###
+
+GET http://localhost:3000/clientes/listarClientes
+
+###
+GET http://localhost:3000/clientes/buscarCliente/4422
+
+###
+GET http://localhost:3000/clientes/buscarClienteCpf/12345678911
+
+###
+DELETE  http://localhost:3000/clientes/deletarCliente/4423
+
+###
+PUT http://localhost:3000/clientes/editarCliente/4422
+Content-Type: application/json
